@@ -10,7 +10,7 @@ Follow instructions at https://github.com/redcanaryco/invoke-atomicredteam/wiki
 
 For this research paper, the following setup commands were used.
 1. Make a Tools Directory: `New-Item -Path "c:\" -Name "Tools" -ItemType "directory"`
-2. Install Invoke-AtomicRedTeam Module
+2. Install Invoke-AtomicRedTeam Module: \
 	`IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing); \
 	Install-AtomicRedTeam -InstallPath "c:\Tools" -getAtomics`
 3. Update PowerShell profile to automatically install the module in new shell:
