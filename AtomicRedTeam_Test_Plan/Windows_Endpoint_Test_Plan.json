@@ -23,9 +23,9 @@
 		{
 			"techniqueID": "T1548",
 			"tactic": "privilege-escalation",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1548.002\n|Pri: Atomic Test #1  \n|Sec: Atomic Test #2\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -33,9 +33,9 @@
 		{
 			"techniqueID": "T1548",
 			"tactic": "defense-evasion",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1548.002\n|Pri: Atomic Test #1  \n|Sec: Atomic Test #2\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -63,9 +63,9 @@
 		{
 			"techniqueID": "T1087",
 			"tactic": "discovery",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1087.001\n|Pri: Atomic Test #8  \n|Sec: Atomic Test #9\n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1087.001/T1087.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -93,9 +93,9 @@
 		{
 			"techniqueID": "T1071",
 			"tactic": "command-and-control",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1071.004\n|Pri: Atomic Test #1  \n|Sec: Atomic Test #2\n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.004/T1071.004.md\n\n|T1071.001\n|Pri: Atomic Test #1  \n|Sec: Atomic Test #2\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.001/T1071.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -143,9 +143,9 @@
 		{
 			"techniqueID": "T1110",
 			"tactic": "credential-access",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1110.001\n|Pri: Atomic Test #1  \n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1110.001/T1110.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -163,9 +163,9 @@
 		{
 			"techniqueID": "T1059",
 			"tactic": "execution",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1059.001\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #12 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md\n\n|T1059.003\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #2 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.003/T1059.003.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -213,9 +213,9 @@
 		{
 			"techniqueID": "T1546",
 			"tactic": "privilege-escalation",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1546.011\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #3\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.011/T1546.011.md\n\n|T1546.001\n|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.001/T1546.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -223,9 +223,9 @@
 		{
 			"techniqueID": "T1546",
 			"tactic": "persistence",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1546.011\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #3\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.011/T1546.011.md\n\n|T1546.001\n|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.001/T1546.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -283,9 +283,9 @@
 		{
 			"techniqueID": "T1574",
 			"tactic": "persistence",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1574.001\n|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md\n\n|T1574.002\n|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -293,9 +293,9 @@
 		{
 			"techniqueID": "T1574",
 			"tactic": "privilege-escalation",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1574.001\n|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md\n\n|T1574.002\n|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -303,9 +303,9 @@
 		{
 			"techniqueID": "T1574",
 			"tactic": "defense-evasion",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1574.001\n|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md\n\n|T1574.002\n|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -373,9 +373,9 @@
 		{
 			"techniqueID": "T1070",
 			"tactic": "defense-evasion",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1070.003\n|Pri: Atomic Test #10  \n|Sec: Atomic Test #11\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.003/T1070.003.md\n\n|T1070.001\n|Pri: Atomic Test #1  \n|Sec: Atomic Test #2\n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.001/T1070.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -423,9 +423,9 @@
 		{
 			"techniqueID": "T1069",
 			"tactic": "discovery",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1069.001\n|Pri: Atomic Test #2  \n|Sec: Atomic Test #3\n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1069.001/T1069.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -443,9 +443,9 @@
 		{
 			"techniqueID": "T1566",
 			"tactic": "initial-access",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1566.001\n|Pri: Atomic Test #2\n|Sec: Atomic Test #1\n|Reference:\nhttps://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.001/T1566.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -473,9 +473,9 @@
 		{
 			"techniqueID": "T1090",
 			"tactic": "command-and-control",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1090.001\n|Pri: Atomic Test #3  \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -513,9 +513,9 @@
 		{
 			"techniqueID": "T1021",
 			"tactic": "lateral-movement",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1021.003\n|Pri: Atomic Test #1   \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.003/T1021.003.md\n\n|T1021.002\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #2  \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.002/T1021.002.md\n\n|T1021.006\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #2  \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.006/T1021.006.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -553,9 +553,9 @@
 		{
 			"techniqueID": "T1053",
 			"tactic": "execution",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1053.005\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #4\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -563,9 +563,9 @@
 		{
 			"techniqueID": "T1053",
 			"tactic": "persistence",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1053.005\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #4\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -573,9 +573,9 @@
 		{
 			"techniqueID": "T1053",
 			"tactic": "privilege-escalation",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1053.005\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #4\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -615,7 +615,7 @@
 			"tactic": "discovery",
 			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1518.001\n|Pri: Atomic Test #1 \n|Sec: Atomic Test #2  \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -643,9 +643,9 @@
 		{
 			"techniqueID": "T1569",
 			"tactic": "execution",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1047\n|Pri: Atomic Test #2 \n|Sec: Atomic Test #5\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -663,9 +663,9 @@
 		{
 			"techniqueID": "T1078",
 			"tactic": "defense-evasion",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1078.003\n|Pri: Atomic Test #1\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.003/T1078.003.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -673,9 +673,9 @@
 		{
 			"techniqueID": "T1078",
 			"tactic": "persistence",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1078.003\n|Pri: Atomic Test #1\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.003/T1078.003.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -683,9 +683,9 @@
 		{
 			"techniqueID": "T1078",
 			"tactic": "privilege-escalation",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1078.003\n|Pri: Atomic Test #1\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.003/T1078.003.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -693,9 +693,9 @@
 		{
 			"techniqueID": "T1078",
 			"tactic": "initial-access",
-			"score": 15,
+			"score": 0,
 			"color": "",
-			"comment": "",
+			"comment": "|T1078.003\n|Pri: Atomic Test #1\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.003/T1078.003.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
