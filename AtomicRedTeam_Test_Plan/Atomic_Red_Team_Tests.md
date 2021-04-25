@@ -1,0 +1,1 @@
+Invoke-AtomicRedTeam T1566.001 -TestNumbers 1,2

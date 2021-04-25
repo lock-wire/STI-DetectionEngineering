@@ -2,10 +2,12 @@
 STI ISE 5901 Whitepaper repository
 
 ## AtomicRedTeam Test Plan in MITRE ATT&CK Navigator
-![Alt text](./AtomicRedTeam_Test_Plan/Windows_Endpoint_Test_Plan.svg)
-- The AtomicRedTeam Test Plan is stored in json format.  
-- Import the json into the MITRE ATT&CK Navigator in Security Onion 2.3.x or at https://mitre-attack.github.io/attack-navigator/.
-- **50** techniques and sub-techniques selected in 9 of the 12 MITRE ATT&CK Enterprise 
+![Alt text](./AtomicRedTeam_Test_Plan/Windows_Endpoint_Test_Plan_4.0.svg)
+- The AtomicRedTeam Test Plan is stored in json format for Navigator 4.x or 3.x.  
+- Import the Windows_Endpoint_Test_Plan_4.0.json into MITRE ATT&CK Navigator 4.x (https://mitre-attack.github.io/attack-navigator/) to see test plan with sub-techniques.
+- Import the Windows_Endpoint_Test_Plan_3.0.json into the MITRE ATT&CK Navigator 3.x in Security Onion 2.3.x to see the test plan without sub-techniques.
+
+- **50** techniques and sub-techniques selected in 9 of the 12 MITRE ATT&CK Enterprise Tactics
 1. https://jqplay.org/
 2. Paste test plan json into JSON window.
 3. Copy into Filter: \
@@ -13,6 +15,7 @@ STI ISE 5901 Whitepaper repository
 4. Copy and Paste Output into techniques.txt
 5. PowerShell command to sort, unique, and count \
 `get-content techniques.txt | sort-object | get-unique | measure-object -word`
+
 - **34** Unique techniques will be tested (Duplications removed) \
 1. https://jqplay.org/
 2. Paste test plan json into JSON window.
@@ -21,6 +24,7 @@ STI ISE 5901 Whitepaper repository
 4. Copy and Paste Output into techniqueID.txt
 5. PowerShell command to sort, unique, and count \
 `get-content techniqueID.txt | sort-object | get-unique | measure-object -word`
+
 - **71** Atomic Red Team tests planned
 1. https://jqplay.org/
 2. Paste test plan json into JSON window.
@@ -44,3 +48,7 @@ Install-AtomicRedTeam -InstallPath "c:\Tools" -getAtomics`
 2. Paste the following, save, then close. 
 `Import-Module "C:\Tools\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force \
 $PSDefaultParameterValues = @{"Invoke-AtomicTest:PathToAtomicsFolder"="C:\Tools\atomics"}`
+
+## Invoke-AtomicRedTeam Tests
+Execute command	`Invoke-AtomicRedTeam TECHNIQUE_ID -TestNumbers TEST_NUMBERS`
+<iframe src=".\AtomicRedTeam_Test_Plan\Atomic_Red_Team_Tests.md" seamless></iframe>
