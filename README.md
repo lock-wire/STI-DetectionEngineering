@@ -2,8 +2,8 @@
 STI ISE 5901 Whitepaper repository
 
 ## AtomicRedTeam Test Plan in MITRE ATT&CK Navigator
-![Alt text](./Windows_Endpoint_Test_Plan.svg)
-<img src="./Windows_Endpoint_Test_Plan.svg">
+![Alt text](./AtomicRedTeam_Test_Plan/Windows_Endpoint_Test_Plan.svg)
+<img src="./AtomicRedTeam_Test_Plan/Windows_Endpoint_Test_Plan.svg">
 - The AtomicRedTeam Test Plan is stored in json format.  
 - Import the json into the MITRE ATT&CK Navigator in Security Onion 2.3.x or at https://mitre-attack.github.io/attack-navigator/.
 - **50** techniques and sub-techniques selected in 9 of the 12 MITRE ATT&CK Enterprise 
