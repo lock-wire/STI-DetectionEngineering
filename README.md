@@ -50,5 +50,5 @@ Install-AtomicRedTeam -InstallPath "c:\Tools" -getAtomics`
 $PSDefaultParameterValues = @{"Invoke-AtomicTest:PathToAtomicsFolder"="C:\Tools\atomics"}`
 
 ## Invoke-AtomicRedTeam Tests
-Execute command	`Invoke-AtomicRedTeam TECHNIQUE_ID -TestNumbers TEST_NUMBERS`
-[Test Examples](.\AtomicRedTeam_Test_Plan\Atomic_Red_Team_Tests.md)
+Execute command	`Invoke-AtomicRedTeam TECHNIQUE_ID -TestNumbers TEST_NUMBERS` \
+[Test Examples](https://github.com/lock-wire/STI-ISE5901/blob/main/AtomicRedTeam_Test_Plan/Atomic_Red_Team_Tests.md)
