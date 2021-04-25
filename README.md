@@ -51,4 +51,4 @@ $PSDefaultParameterValues = @{"Invoke-AtomicTest:PathToAtomicsFolder"="C:\Tools\
 
 ## Invoke-AtomicRedTeam Tests
 Execute command	`Invoke-AtomicRedTeam TECHNIQUE_ID -TestNumbers TEST_NUMBERS`
-<iframe src=".\AtomicRedTeam_Test_Plan\Atomic_Red_Team_Tests.md" seamless></iframe>
+[Test Examples](.\AtomicRedTeam_Test_Plan\Atomic_Red_Team_Tests.md)
