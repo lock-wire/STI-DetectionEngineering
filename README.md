@@ -1,7 +1,7 @@
 # STI-ISE5901
-STI ISE 5901 Whitepaper repository
-[Endpoint Gap Analysis Test Plan and Commands](https://github.com/lock-wire/STI-ISE5901/blob/main/AtomicRedTeam_Test_Plan/Readme.md)
-[Gap Analysis Test Environment](https://github.com/lock-wire/STI-ISE5901/tree/main/Test%20Environment%20Config)
+STI ISE 5901 Whitepaper repository. \
+[Endpoint Gap Analysis Test Plan and Commands](https://github.com/lock-wire/STI-ISE5901/blob/main/AtomicRedTeam_Test_Plan/Readme.md)\
+[Gap Analysis Test Environment](https://github.com/lock-wire/STI-ISE5901/tree/main/Test%20Environment%20Config)\
 [Wazuh Endpoint Agent Gap Analysis](https://github.com/lock-wire/STI-ISE5901/tree/main/Wazuh%20Test)
 
 ## Gap Analysis with AtomicRedTeam
