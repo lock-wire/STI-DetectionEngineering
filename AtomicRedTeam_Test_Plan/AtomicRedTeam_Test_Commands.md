@@ -1,5 +1,5 @@
 # Atomic Red Team Test Commands
-![Alt text](./AtomicRedTeam_Test_Plan/Windows_Endpoint_Test_Plan_Filtered.svg)
+![Alt text](./Windows_Endpoint_Test_Plan_Filtered.svg)
 
 ## T1012: Discovery
 Pri: Atomic Test #1
