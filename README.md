@@ -1,12 +1,16 @@
 # STI-ISE5901
 STI ISE 5901 Whitepaper repository
+[Endpoint Gap Analysis Test Plan and Commands](https://github.com/lock-wire/STI-ISE5901/blob/main/AtomicRedTeam_Test_Plan/Readme.md)
+[Gap Analysis Test Environment](https://github.com/lock-wire/STI-ISE5901/tree/main/Test%20Environment%20Config)
+[Wazuh Endpoint Agent Gap Analysis](https://github.com/lock-wire/STI-ISE5901/tree/main/Wazuh%20Test)
 
-## AtomicRedTeam Test Plan in MITRE ATT&CK Navigator
-![Alt text](./AtomicRedTeam_Test_Plan/Windows_Endpoint_Test_Plan_Filtered.svg)
+## Gap Analysis with AtomicRedTeam
+[MITRE ATT&CK Navigator](./AtomicRedTeam_Test_Plan/Windows_Endpoint_Test_Plan_Filtered.svg)
 - The AtomicRedTeam Test Plan is stored in json format for Navigator 4.x or 3.x.  
-- Import the Windows_Endpoint_Test_Plan_4.0.json into MITRE ATT&CK Navigator 4.x (https://mitre-attack.github.io/attack-navigator/) to see test plan with sub-techniques.
-- Import the Windows_Endpoint_Test_Plan_3.0.json into the MITRE ATT&CK Navigator 3.x in Security Onion 2.3.x to see the test plan without sub-techniques.
+- To view import the Windows_Endpoint_Test_Plan_4.0.json into MITRE ATT&CK Navigator 4.x (https://mitre-attack.github.io/attack-navigator/) to see test plan with sub-techniques.
+- To view import the Windows_Endpoint_Test_Plan_3.0.json into the MITRE ATT&CK Navigator 3.x in Security Onion 2.3.x to see the test plan without sub-techniques.
 
+## Highlights
 ### **50** techniques and sub-techniques selected in 9 of the 12 MITRE ATT&CK Enterprise Tactics
 1. https://jqplay.org/
 2. Paste contents Windows_Endpoint_Test_Plan_4.0.json into JSON window.

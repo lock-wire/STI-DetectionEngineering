@@ -1,4 +1,4 @@
-# Atomic Red Team Test Commands
+# Gap Analysis with Atomic Red Team Test Commands
 ![Alt text](./Windows_Endpoint_Test_Plan_Filtered.svg)
 
 ## T1012: Discovery | Query Registry
