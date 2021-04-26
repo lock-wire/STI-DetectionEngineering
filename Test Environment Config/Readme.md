@@ -30,7 +30,7 @@
 -- NIDS: Basic Setup for Suricata with ET Open ruleset \
 -- Packet Metadata: Basic Setup for Zeek \
 -- Search Node: Basic Setup for Elastic
-- Modify Firewall rules for analyst access
+- Modify Firewall rules for analyst access \
 -- `sudo so-allow` | select 'a' for analyst ports (80 and 443) | enter ip or network for access (example 192.168.1.101/32 or 192.168.1.0/24)
 - Added additional Yara rule repository \
 -- from bash \
