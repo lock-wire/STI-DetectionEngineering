@@ -50,7 +50,7 @@ $PSDefaultParameterValues = @{"Invoke-AtomicTest:PathToAtomicsFolder"="C:\Tools\
 
 ## Invoke-AtomicRedTeam Tests
 Execute command	`Invoke-AtomicRedTeam TECHNIQUE_ID -TestNumbers TEST_NUMBERS` \
-[Test Examples](https://github.com/lock-wire/STI-ISE5901/blob/main/AtomicRedTeam_Test_Plan/Readme.md)
+[Atomic Red Team Test Commands](https://github.com/lock-wire/STI-ISE5901/blob/main/AtomicRedTeam_Test_Plan/Readme.md)
 
 ### How I made the test command list from Test Plan
 1. https://jqplay.org/
