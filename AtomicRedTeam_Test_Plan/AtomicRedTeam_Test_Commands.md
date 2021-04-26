@@ -1,28 +1,28 @@
-# T1012
+# T1012: Discovery
 Pri: Atomic Test #1
 `Invoke-AtomicRedTeam T1012 -TestNumbers 1`
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1012/T1012.md
 
-# T1016
+# T1016: Discovery
 Pri: Atomic Test #1 
 `Invoke-AtomicRedTeam T1016 -TestNumbers 1`
 Sec: Atomic Test #2  
 `Invoke-AtomicRedTeam T1016 -TestNumbers 2`
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1016/T1016.md
 
-# T1021.002
+# T1021.002: Lateral-Movement
 Pri: Atomic Test #1 
 `Invoke-AtomicRedTeam T1021.002-TestNumbers 1`
 Sec: Atomic Test #2  
 `Invoke-AtomicRedTeam T1021.002 -TestNumbers 2`
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.002/T1021.002.md
 
-# T1021.003
+# T1021.003: Lateral-Movement
 Pri: Atomic Test #1   
 `Invoke-AtomicRedTeam T1021.003 -TestNumbers 1`
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.003/T1021.003.md
 
-# T1021.006
+# T1021.006: Lateral-Movement
 Pri: Atomic Test #1 
 `Invoke-AtomicRedTeam T1021.006 -TestNumbers 1`
 Sec: Atomic Test #2  

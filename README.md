@@ -60,3 +60,4 @@ Execute command	`Invoke-AtomicRedTeam TECHNIQUE_ID -TestNumbers TEST_NUMBERS` \
 4. Copy and Paste Output into techniqueID.txt
 5. PowerShell command to sort, unique, and count \
 `(((((gc .\command_list.txt | sort-object | get-unique).split("|")).TrimEnd("\n")).TrimStart('{"').TrimEnd('"}')).TrimEnd('"comment":')).split(",") | out-file AtomicRedTeam_Test_Commands.md`
+6. The rest is good old fashion manual text editing
