@@ -9,8 +9,8 @@ STI ISE 5901 Whitepaper repository
 
 - **50** techniques and sub-techniques selected in 9 of the 12 MITRE ATT&CK Enterprise Tactics
 1. https://jqplay.org/
-2. Paste test plan json into JSON window.
-3. Copy into Filter: \
+2. Paste contents Windows_Endpoint_Test_Plan_4.0.json into JSON window.
+3. Copy the following text into the Filter field: \
 `.techniques[] | {techniqueID: .techniqueID, comment: .comment} | .techniqueID`
 4. Copy and Paste Output into techniques.txt
 5. PowerShell command to sort, unique, and count \
@@ -18,8 +18,8 @@ STI ISE 5901 Whitepaper repository
 
 - **34** Unique techniques will be tested (Duplications removed) \
 1. https://jqplay.org/
-2. Paste test plan json into JSON window.
-3. Copy into Filter: \
+2. Paste contents Windows_Endpoint_Test_Plan_4.0.json into JSON window.
+3. Copy the following text into the Filter field: \
 `.techniques[] | {techniqueID: .techniqueID, comment: .comment} | select(.comment!="") | .techniqueID`
 4. Copy and Paste Output into techniqueID.txt
 5. PowerShell command to sort, unique, and count \
@@ -27,13 +27,12 @@ STI ISE 5901 Whitepaper repository
 
 - **71** Atomic Red Team tests planned
 1. https://jqplay.org/
-2. Paste test plan json into JSON window.
-3. Copy into Filter: \
+2. Paste contents Windows_Endpoint_Test_Plan_4.0.json into JSON window.
+3. Copy the following text into the Filter field: \
 `.techniques[] | {techniqueID: .techniqueID, comment: .comment} | select(.comment!="") | .comment`
 4. Copy and Paste Output into comments.txt
 5. PowerShell command to sort, unique, and count \
 `(get-content comments.txt).split("|") | select-string "Atomic Test #" | sort-object | measure-object -line`
-
 
 ## Install Invoke-AtomicRedTeam Setup
 Follow instructions at https://github.com/redcanaryco/invoke-atomicredteam/wiki
@@ -52,3 +51,12 @@ $PSDefaultParameterValues = @{"Invoke-AtomicTest:PathToAtomicsFolder"="C:\Tools\
 ## Invoke-AtomicRedTeam Tests
 Execute command	`Invoke-AtomicRedTeam TECHNIQUE_ID -TestNumbers TEST_NUMBERS` \
 [Test Examples](https://github.com/lock-wire/STI-ISE5901/blob/main/AtomicRedTeam_Test_Plan/AtomicRedTeam_Test_Commands.md)
+
+-How I made the test command list from Test Plan
+1. https://jqplay.org/
+2. Paste contents Windows_Endpoint_Test_Plan_4.0.json into JSON window.
+3. Copy the following text into the Filter field: \
+`.techniques[] | {techniqueID: .techniqueID, tactic: .tactic, comment: .comment} | select(.comment!="")`
+4. Copy and Paste Output into techniqueID.txt
+5. PowerShell command to sort, unique, and count \
+`(((((gc .\command_list.txt | sort-object | get-unique).split("|")).TrimEnd("\n")).TrimStart('{"').TrimEnd('"}')).TrimEnd('"comment":')).split(",") | out-file AtomicRedTeam_Test_Commands.md`
