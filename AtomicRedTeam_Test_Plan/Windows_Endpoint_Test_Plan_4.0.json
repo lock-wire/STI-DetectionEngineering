@@ -757,7 +757,7 @@
 			"value": "Windows"
 		}
 	],
-	"showTacticRowBackground": false,
+	"showTacticRowBackground": true,
 	"tacticRowBackground": "#dddddd",
 	"selectTechniquesAcrossTactics": true,
 	"selectSubtechniquesWithParent": false
