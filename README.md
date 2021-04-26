@@ -5,7 +5,7 @@ STI ISE 5901 Whitepaper repository. \
 [Wazuh Endpoint Agent Gap Analysis](https://github.com/lock-wire/STI-ISE5901/tree/main/Wazuh%20Test)
 
 ## Gap Analysis with AtomicRedTeam
-[MITRE ATT&CK Navigator](./AtomicRedTeam_Test_Plan/Windows_Endpoint_Test_Plan_Filtered.svg)
+![MITRE ATT&CK Navigator](./AtomicRedTeam_Test_Plan/Windows_Endpoint_Test_Plan_Filtered.svg)
 - The AtomicRedTeam Test Plan is stored in json format for Navigator 4.x or 3.x.  
 - To view import the Windows_Endpoint_Test_Plan_4.0.json into MITRE ATT&CK Navigator 4.x (https://mitre-attack.github.io/attack-navigator/) to see test plan with sub-techniques.
 - To view import the Windows_Endpoint_Test_Plan_3.0.json into the MITRE ATT&CK Navigator 3.x in Security Onion 2.3.x to see the test plan without sub-techniques.
