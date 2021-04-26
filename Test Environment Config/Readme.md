@@ -1,4 +1,5 @@
 # Test Environment Configuration
+![Alt text](./Test_Environment.svg)
 
 ## Windows Endpoint
 - Virtualized in VMWare
