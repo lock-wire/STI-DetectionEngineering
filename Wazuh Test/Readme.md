@@ -10,5 +10,8 @@ Dections are scored on a scale of 0 to 100.
 | 50     | Log and No Alert| ![#ffe766](https://via.placeholder.com/15/ffe766/000000?text=+) `Amber` |
 | 100    | Log and Alert   | ![#8ec843](https://via.placeholder.com/15/8ec843/000000?text=+) `Green` |
 
+**Note:** For techniques with multiple tests, the final technique score will the sum of the scores for each test divided by the number of tests.
+**Example:** Test 1 = 50 and Test 2 = 0 `(50+0)/2 = 25`
+
 ## Wazuh Endpoint Test: User Account
 ![Alt text](./User_Account/Wazuh_Endpoint_Test_User_Account.svg)
