@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\AtomicRedTeam_Test_Plan"
+    "\\AtomicRedTeam_Test_Plan",
+    "\\Test Environment Config",
+    "\\Wazuh Test"
   ],
+  "SelectedNode": "\\Test Environment Config",
   "PreviewInSolutionExplorer": false
 }
