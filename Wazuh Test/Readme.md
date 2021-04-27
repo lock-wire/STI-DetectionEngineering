@@ -11,4 +11,4 @@ Dections are scored on a scale of 0 to 100.
 | 100    | Log and Alert   | ![#8ec843](https://via.placeholder.com/15/8ec843/000000?text=+) `Green` |
 
 ## Wazuh Endpoint Test: User Account
-![Alt text](./User Account/Wazuh_Endpoint_Test_User_Account.svg)
+![Alt text]('./User Account/Wazuh_Endpoint_Test_User_Account.svg')
