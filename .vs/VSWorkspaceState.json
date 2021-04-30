@@ -3,8 +3,9 @@
     "",
     "\\AtomicRedTeam_Test_Plan",
     "\\Test Environment Config",
-    "\\Wazuh Test"
+    "\\Wazuh Test",
+    "\\Wazuh Test\\User_Account"
   ],
-  "SelectedNode": "\\Test Environment Config",
+  "SelectedNode": "\\Wazuh Test\\User_Account",
   "PreviewInSolutionExplorer": false
 }

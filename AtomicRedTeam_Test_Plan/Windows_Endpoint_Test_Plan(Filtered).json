@@ -1,9 +1,9 @@
 {
 	"name": "Windows Endpoint Test Plan(Filtered)",
 	"versions": {
-		"attack": "8",
-		"navigator": "4.2",
-		"layer": "4.1"
+		"attack": "9",
+		"navigator": "4.3",
+		"layer": "4.2"
 	},
 	"domain": "enterprise-attack",
 	"description": "This layer depicts the TTPs that will be used to test endpoint detection capability for STI Whitepaper.",
@@ -15,8 +15,11 @@
 	"sorting": 1,
 	"layout": {
 		"layout": "side",
+		"aggregateFunction": "average",
 		"showID": true,
-		"showName": true
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
 	},
 	"hideDisabled": true,
 	"techniques": [
@@ -4136,6 +4139,51 @@
 		{
 			"techniqueID": "T1606.002",
 			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555.004",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555.005",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1611",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1614",
+			"tactic": "discovery",
 			"color": "",
 			"comment": "",
 			"enabled": false,
