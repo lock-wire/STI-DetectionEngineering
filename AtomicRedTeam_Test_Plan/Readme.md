@@ -15,7 +15,7 @@ Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1
 
 ## T1021.002: Lateral-Movement | Remote Services | SMB/Windows Admin Shares
 Pri: Atomic Test #1 \
-`Invoke-AtomicTest T1021.002 -TestNumbers 1 -InputArgs @{"user_name" = "$env:username"; "password" = (Read-Host "Enter Password"); "share_name" = "C$"; "computer_name" = "$env:computername"} \
+`Invoke-AtomicTest T1021.002 -TestNumbers 1 -InputArgs @{"user_name" = "$env:username"; "password" = (Read-Host "Enter Password"); "share_name" = "C$"; "computer_name" = "$env:computername"}` \
 Sec: Atomic Test #2  \
 `Invoke-AtomicTest T1021.002 -TestNumbers 1 -InputArgs @{"share_name" = "C$"; "map_name" = "G"; "computer_name" = "$env:computername"}` \
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.002/T1021.002.md
