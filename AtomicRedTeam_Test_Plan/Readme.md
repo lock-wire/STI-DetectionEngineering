@@ -53,7 +53,7 @@ Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1
 
 ## T1059.003: Execution | Command and Scripting Interpreter | Windows Command Shell
 Pri: Atomic Test #1 \
-`Invoke-AtomicTest T1059.003 -TestNumbers 1` \
+`Invoke-AtomicTest T1059.003 -TestNumbers 1 -InputArgs @{"command_to_execute" = "dir c:\"; "script_path" = "$env:TEMP\T1059.003_script.bat"}` \
 Sec: Atomic Test #2 \
 `Invoke-AtomicTest T1059.003 -TestNumbers 2` \
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.003/T1059.003.md
