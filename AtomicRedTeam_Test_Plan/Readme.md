@@ -39,9 +39,9 @@ Sec: Atomic Test #4 \
 `Invoke-AtomicTest T1053.005 -TestNumbers 4` \
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md
 
-## T1057: Process Discovery
+## T1057: Discovery | Process Discovery
 Pri: Atomic Test #2  \
-`Invoke-AtomicTest T1057 -TestNumbers 2` \
+`Invoke-AtomicTest T1057 -TestNumbers 2 -InputArgs @{"output_file" = "$home\loot.txt"}` \
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1057/T1057.md
 
 ## T1059.001: Execution | Command and Scripting Interpreter | PowerShell
