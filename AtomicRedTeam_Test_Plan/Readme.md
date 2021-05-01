@@ -29,7 +29,7 @@ Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1
 Pri: Atomic Test #1 \
 `Invoke-AtomicTest T1021.006 -TestNumbers 1` \
 Sec: Atomic Test #2  \
-`Invoke-AtomicTest T1021.006 -TestNumbers 2` \
+`Invoke-AtomicTest T1021.006 -TestNumbers 2 -InputArgs @{"host_name" = "$env:computername"; "remote_command" = "cmd.exe /c whoami"}` \
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.006/T1021.006.md
 
 ## T1053.005: Execution/Persistencec/Privilege Escalation | ScheduledTask/Job | ScheduledTask
