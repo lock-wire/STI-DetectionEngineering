@@ -82,7 +82,7 @@ Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1
 ## T1071.001: Command and Control | Application Layer Protocol | Web Protocols
 Pri: Atomic Test #1 \
 `Invoke-AtomicTest T1071.001 -TestNumbers 1` \
-Sec: Atomic Test #2 \
+Sec: ~~Atomic Test #2~~ **Required curl.exe** \
 `Invoke-AtomicTest T1071.001 -TestNumbers 2` \
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.001/T1071.001.md
 
