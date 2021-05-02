@@ -128,7 +128,7 @@ Pri: Atomic Test #1 \
 Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1106/T1106.md
 
 ## T1110.001: Credential Access | Brute Force | Password Guessing
-Pri: Atomic Test #1 \
+Pri: ~~Atomic Test #1~~ **Deleted: Requires Domain Controller** \
 `Invoke-AtomicTest T1110.001 -TestNumbers 1` \
 Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1110.001/T1110.001.md
 
@@ -137,7 +137,7 @@ Pri: Atomic Test #3 \
 `Invoke-AtomicTest T1197 -TestNumbers 3` \
 Sec: Atomic Test #4 \
 `Invoke-AtomicTest T1197 -TestNumbers 4` \
-Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.mdhttps://github
+Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1197/T1197.md
 
 ## T1219: Command and Control | Remote Access Software
 Pri: Atomic Test #1 \

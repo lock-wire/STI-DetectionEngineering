@@ -20,7 +20,7 @@ STI ISE 5901 Whitepaper repository. \
 5. PowerShell command to sort, unique, and count \
 `get-content techniques.txt | sort-object | get-unique | measure-object -word`
 
-### **34** Unique techniques will be tested (Duplications removed)
+### **33** Unique techniques will be tested (Duplications removed)
 1. https://jqplay.org/
 2. Paste contents Windows_Endpoint_Test_Plan_4.0.json into JSON window.
 3. Copy the following text into the Filter field: \
@@ -29,7 +29,7 @@ STI ISE 5901 Whitepaper repository. \
 5. PowerShell command to sort, unique, and count \
 `get-content techniqueID.txt | sort-object | get-unique | measure-object -word`
 
-### **71** Atomic Red Team tests planned
+### **69** Atomic Red Team tests planned
 1. https://jqplay.org/
 2. Paste contents Windows_Endpoint_Test_Plan_4.0.json into JSON window.
 3. Copy the following text into the Filter field: \
