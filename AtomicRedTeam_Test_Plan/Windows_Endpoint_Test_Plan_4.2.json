@@ -101,14 +101,14 @@
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": false
+			"showSubtechniques": true
 		},
 		{
 			"techniqueID": "T1071.001",
 			"tactic": "command-and-control",
 			"score": 0,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1  \n|Sec: Atomic Test #2\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.001/T1071.001.md",
+			"comment": "|Pri: Atomic Test #1  \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1071.001/T1071.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -146,22 +146,11 @@
 		{
 			"techniqueID": "T1110",
 			"tactic": "credential-access",
-			"score": 15,
 			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1110.001",
-			"tactic": "credential-access",
-			"score": 0,
-			"color": "",
-			"comment": "|Pri: Atomic Test #1  \n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1110.001/T1110.001.md",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
+			"showSubtechniques": true
 		},
 		{
 			"techniqueID": "T1059",
