@@ -26,6 +26,7 @@
 		{
 			"techniqueID": "T1548",
 			"tactic": "privilege-escalation",
+			"score": 100,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -35,6 +36,7 @@
 		{
 			"techniqueID": "T1548",
 			"tactic": "defense-evasion",
+			"score": 100,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -44,8 +46,9 @@
 		{
 			"techniqueID": "T1548.002",
 			"tactic": "privilege-escalation",
+			"score": 100,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1  \n|Sec: Atomic Test #2\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md",
+			"comment": "|Pri: Atomic Test #1 \n|| Time: 2021/05/01 08:57:00 PM - 2021/05/01 09:01:00 PM\n||Permission Denied in Defender\n||Alert Results: Defender unwanted software\n||Log Results:  Sysmon: Process creation \n||SQL: * | groupby event.module event.dataset  \n \n|Sec: Atomic Test #2\n|| Time: 2021/05/01 08:57:00 PM - 2021/05/01 09:01:00 PM\n||Permission Denied in Defender\n||Alert Results: Defender unwanted software\n||Log Results:  Sysmon: Process creation\nSysmon: registry creation\n||SQL: * | groupby event.module event.dataset  \n\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -53,8 +56,9 @@
 		{
 			"techniqueID": "T1548.002",
 			"tactic": "defense-evasion",
+			"score": 100,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1  \n|Sec: Atomic Test #2\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md",
+			"comment": "|Pri: Atomic Test #1 \n|| Time: 2021/05/01 08:57:00 PM - 2021/05/01 09:01:00 PM\n||Permission Denied in Defender\n||Alert Results: Defender unwanted software\n||Log Results:  Sysmon: Process creation \n||SQL: * | groupby event.module event.dataset  \n \n|Sec: Atomic Test #2\n|| Time: 2021/05/01 08:57:00 PM - 2021/05/01 09:01:00 PM\n||Permission Denied in Defender\n||Alert Results: Defender unwanted software\n||Log Results:  Sysmon: Process creation\nSysmon: registry creation\n||SQL: * | groupby event.module event.dataset  \n\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -190,8 +194,9 @@
 		{
 			"techniqueID": "T1555",
 			"tactic": "credential-access",
+			"score": 100,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1  \n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555/T1555.md",
+			"comment": "|Pri: Atomic Test #1\n|| Time: 2021/05/01 09:22:00 PM - 2021/05/01 09:23:00 PM\n||Permission Denied in Defender\n||Alert Results: Defender unwanted software\n||Log Results:  Sysmon: Process creation \n||SQL: * | groupby event.module event.dataset  \n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555/T1555.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": true
@@ -199,8 +204,9 @@
 		{
 			"techniqueID": "T1573",
 			"tactic": "command-and-control",
+			"score": 50,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1  \n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573/T1573.md",
+			"comment": "|Pri: Atomic Test #1  \n|| Time: 2021/05/01 10:08:00 PM - 2021/05/01 10:09:00 PM\n||Permission Denied in console\n||Alert Results: None\n||Log Results: \nsysmon: process_creation\nwinevent: powershell\n||SQL: * | groupby event.module event.dataset\n|Reference:  https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573/T1573.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": true
@@ -208,6 +214,7 @@
 		{
 			"techniqueID": "T1546",
 			"tactic": "privilege-escalation",
+			"score": 50,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -217,6 +224,7 @@
 		{
 			"techniqueID": "T1546",
 			"tactic": "persistence",
+			"score": 50,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -246,8 +254,9 @@
 		{
 			"techniqueID": "T1546.011",
 			"tactic": "privilege-escalation",
+			"score": 50,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1 \n|Sec: Atomic Test #3\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.011/T1546.011.md",
+			"comment": "|Pri: Atomic Test #1\n|| Time: 2021/05/01 08:49:00 PM - 2021/05/01 08:51:00 PM\n||Permission Denied in console\n||Alert Results: None\n||Log Results:  Sysmon: Process creation powershell.exe, cmd.exe\n||SQL: * | groupby event.module event.dataset  \n \n|Sec: Atomic Test #3\n|| Time: 2021/05/01 08:49:00 PM - 2021/05/01 08:51:00 PM\n||Permission Denied in console\n||Alert Results: None\n||Log Results:  Sysmon: Process creation powershell.exe, cmd.exe\n||SQL: * | groupby event.module event.dataset  \n\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.011/T1546.011.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -255,8 +264,9 @@
 		{
 			"techniqueID": "T1546.011",
 			"tactic": "persistence",
+			"score": 50,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1 \n|Sec: Atomic Test #3\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.011/T1546.011.md",
+			"comment": "|Pri: Atomic Test #1\n|| Time: 2021/05/01 08:49:00 PM - 2021/05/01 08:51:00 PM\n||Permission Denied in console\n||Alert Results: None\n||Log Results:  Sysmon: Process creation powershell.exe, cmd.exe\n||SQL: * | groupby event.module event.dataset  \n \n|Sec: Atomic Test #3\n|| Time: 2021/05/01 08:49:00 PM - 2021/05/01 08:51:00 PM\n||Permission Denied in console\n||Alert Results: None\n||Log Results:  Sysmon: Process creation powershell.exe, cmd.exe\n||SQL: * | groupby event.module event.dataset  \n\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.011/T1546.011.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -274,6 +284,7 @@
 		{
 			"techniqueID": "T1574",
 			"tactic": "persistence",
+			"score": 75,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -283,6 +294,7 @@
 		{
 			"techniqueID": "T1574",
 			"tactic": "privilege-escalation",
+			"score": 75,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -292,6 +304,7 @@
 		{
 			"techniqueID": "T1574",
 			"tactic": "defense-evasion",
+			"score": 75,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -301,8 +314,9 @@
 		{
 			"techniqueID": "T1574.001",
 			"tactic": "persistence",
+			"score": 50,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md",
+			"comment": "|Pri: Atomic Test #1 \n|| Time: 2021/05/01 10:15:00 PM - 2021/05/01 10:16:00 PM\n||Alert Results: None\n|Log Results: Windows_Eventlog:\nPowershell\nSysmon: Process creation sysmon: process termination\nsysmon: file_create\nwinevent: powershell\n|SQL: * | groupby event.module event.dataset   \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -310,8 +324,9 @@
 		{
 			"techniqueID": "T1574.001",
 			"tactic": "privilege-escalation",
+			"score": 50,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md",
+			"comment": "|Pri: Atomic Test #1 \n|| Time: 2021/05/01 10:15:00 PM - 2021/05/01 10:16:00 PM\n||Alert Results: None\n|Log Results: Windows_Eventlog:\nPowershell\nSysmon: Process creation sysmon: process termination\nsysmon: file_create\nwinevent: powershell\n|SQL: * | groupby event.module event.dataset   \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -319,8 +334,9 @@
 		{
 			"techniqueID": "T1574.001",
 			"tactic": "defense-evasion",
+			"score": 50,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md",
+			"comment": "|Pri: Atomic Test #1 \n|| Time: 2021/05/01 10:15:00 PM - 2021/05/01 10:16:00 PM\n||Alert Results: None\n|Log Results: Windows_Eventlog:\nPowershell\nSysmon: Process creation sysmon: process termination\nsysmon: file_create\nwinevent: powershell\n|SQL: * | groupby event.module event.dataset   \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -328,8 +344,9 @@
 		{
 			"techniqueID": "T1574.002",
 			"tactic": "persistence",
+			"score": 100,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md",
+			"comment": "|Pri: Atomic Test #1 \n|| Time: 2021/05/01 10:22:00 PM - 2021/05/01 10:23:00 PM\n||Alert Results: Windowns_event 60602, 60608\n|Log Results: Windows_Eventlog:\nPowershell\nSysmon: Process creation sysmon: reg value\nsysmon: file_create\nwinevent: powershell, security\n|SQL: * | groupby event.module event.dataset   \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -337,8 +354,9 @@
 		{
 			"techniqueID": "T1574.002",
 			"tactic": "privilege-escalation",
+			"score": 100,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md",
+			"comment": "|Pri: Atomic Test #1 \n|| Time: 2021/05/01 10:22:00 PM - 2021/05/01 10:23:00 PM\n||Alert Results: Windowns_event 60602, 60608\n|Log Results: Windows_Eventlog:\nPowershell\nSysmon: Process creation sysmon: reg value\nsysmon: file_create\nwinevent: powershell, security\n|SQL: * | groupby event.module event.dataset   \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -346,8 +364,9 @@
 		{
 			"techniqueID": "T1574.002",
 			"tactic": "defense-evasion",
+			"score": 100,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1 \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md",
+			"comment": "|Pri: Atomic Test #1 \n|| Time: 2021/05/01 10:22:00 PM - 2021/05/01 10:23:00 PM\n||Alert Results: Windowns_event 60602, 60608\n|Log Results: Windows_Eventlog:\nPowershell\nSysmon: Process creation sysmon: reg value\nsysmon: file_create\nwinevent: powershell, security\n|SQL: * | groupby event.module event.dataset   \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -395,8 +414,9 @@
 		{
 			"techniqueID": "T1571",
 			"tactic": "command-and-control",
+			"score": 50,
 			"color": "",
-			"comment": "|Pri: Atomic Test #1  \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md",
+			"comment": "|Pri: Atomic Test #1 \n|| Time: 2021/05/01 09:56:30 PM - 2021/05/01 09:59:00 PM\n||Alert Results: None\n|Log Results: Sysmon Logs for Process creation powershell.exe\nZeek conn\nsysmon dns_query\nwinevent Powershell\n|SQL: * | groupby event.module event.dataset \n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1571/T1571.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -424,6 +444,7 @@
 		{
 			"techniqueID": "T1566",
 			"tactic": "initial-access",
+			"score": 75,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -433,8 +454,9 @@
 		{
 			"techniqueID": "T1566.001",
 			"tactic": "initial-access",
+			"score": 75,
 			"color": "",
-			"comment": "|Pri: Atomic Test #2\n|Sec: Atomic Test #1\n|Reference:\nhttps://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.001/T1566.001.md",
+			"comment": "|Pri: Atomic Test #2\n|| Time: 2021/05/01 09:30:00 PM - 2021/05/01 09:32:00 PM\n||Permission Denied in Defender\n||Alert Results: Defender unwanted software\n||Log Results:  Sysmon: Process creation \nSysmon: dns_query\nSysmon: network_connection\nSysmon: file_create\n||SQL: * | groupby event.module event.datase\n|Sec: Atomic Test #1\n|| 2021/05/01 09:30:00 PM - 2021/05/01 09:32:00 PM\n||Permission Denied in Defender\n||Alert Results: Defender unwanted software\n||Log Results:  Sysmon: Process creation \nSysmon: file_create\n||SQL: * | groupby event.module event.datase\n|Reference:\nhttps://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.001/T1566.001.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -622,6 +644,7 @@
 		{
 			"techniqueID": "T1569",
 			"tactic": "execution",
+			"score": 50,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -631,8 +654,9 @@
 		{
 			"techniqueID": "T1569.002",
 			"tactic": "execution",
+			"score": 50,
 			"color": "",
-			"comment": "|Pri: Atomic Test #2 \n|Sec: Atomic Test #5\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md",
+			"comment": "|Pri: Atomic Test #1\n|| Time: 2021/05/01 09:44:00 PM - 2021/05/01 09:45:00 PM\n||Permission Denied in console\n||Alert Results: None\n||Log Results:  Sysmon: Process creation powershell.exe, sc.exe\n||SQL: * | groupby event.module event.dataset\n|Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md",
 			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
@@ -4113,6 +4137,51 @@
 		{
 			"techniqueID": "T1606.002",
 			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555.004",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555.005",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1611",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1614",
+			"tactic": "discovery",
 			"color": "",
 			"comment": "",
 			"enabled": false,
