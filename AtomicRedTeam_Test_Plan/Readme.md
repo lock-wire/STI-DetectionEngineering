@@ -183,11 +183,11 @@ Sec: Atomic Test #1 \
 Reference:https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.001/T1566.001.md
 
 ## T1569.002: Execution | System Services | Service Execution
-Pri: Atomic Test #2 \
+Pri: Atomic Test #1 \
+`Invoke-AtomicTest T1569.002 -TestNumbers 1` \
+Sec: ~~Atomic Test #2~~ **Deleted: Inteded for Remote Host** \
 `Invoke-AtomicTest T1569.002 -TestNumbers 2` \
-Sec: Atomic Test #5 \
-`Invoke-AtomicTest T1569.002 -TestNumbers 5` \
-Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md
+Reference: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md
 
 ## T1571: Command and Control | Non-Standard Port
 Pri: Atomic Test #1 \
