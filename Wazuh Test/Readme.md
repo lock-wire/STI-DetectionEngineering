@@ -20,3 +20,5 @@ The Wazuh detection score is 61.36% under user priviledges.
 ## Wazuh Endpoint Test: User Account with Detection Engineering
 
 ![Alt text](./User_Account_Detections/Wazuh_Endpoint_Test_User_Account_with_Detections.svg)
+
+##Test Score Calculations
