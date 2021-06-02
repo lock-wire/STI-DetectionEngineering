@@ -4,7 +4,9 @@
     "\\AtomicRedTeam_Test_Plan",
     "\\Test Environment Config",
     "\\Wazuh Test",
-    "\\Wazuh Test\\User_Account"
+    "\\Wazuh Test\\User_Account",
+    "\\Wazuh Test\\User_Account_Detections"
   ],
+  "SelectedNode": "\\Wazuh Test\\User_Account_Detections\\T1016.md",
   "PreviewInSolutionExplorer": false
 }
