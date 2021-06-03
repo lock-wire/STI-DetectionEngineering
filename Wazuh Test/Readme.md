@@ -24,7 +24,7 @@ This is a 37.12% improvement!
 
 ![Alt text](./User_Account_Detections/Wazuh_Endpoint_Test_User_Account_with_Detections.svg)
 
-##Test Score Calculations
+## Test Score Calculations
 
 | Technique | Wazuh  | Wazuh + Detections |
 | --------- | ------ | ------------------ |
