@@ -1,4 +1,4 @@
-# STI-ISE5901
+# STI Detection Engineering White Paper
 STI ISE 5901 Whitepaper repository. \
 [Endpoint Gap Analysis Test Plan and Commands](https://github.com/lock-wire/STI-ISE5901/blob/main/AtomicRedTeam_Test_Plan/Readme.md)\
 [Gap Analysis Test Environment](https://github.com/lock-wire/STI-ISE5901/tree/main/Test%20Environment%20Config)\
