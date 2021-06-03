@@ -18,7 +18,7 @@ The Wazuh detection score is 61.36% under user priviledges.
 ![Alt text](./User_Account/Wazuh_Endpoint_Test_User_Account.svg)
 
 ## Wazuh Endpoint Test: User Account with Detection Engineering
-
+The Wazuh detection score with Sigma Rules enabled is 100% under user privileges.
 ![Alt text](./User_Account_Detections/Wazuh_Endpoint_Test_User_Account_with_Detections.svg)
 
 ##Test Score Calculations
