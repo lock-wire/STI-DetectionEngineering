@@ -14,7 +14,7 @@ Dections are scored on a scale of 0 to 100.
 **Example:** Test 1 = 50 and Test 2 = 0 `(50+0)/2 = 25`
 
 ## Wazuh Endpoint Test: User Account
-The Wazuh detection score is 61.36% under user priviledges.
+The Wazuh detection score is 61.36% under user privileges.
 ![Alt text](./User_Account/Wazuh_Endpoint_Test_User_Account.svg)
 
 ## Wazuh Endpoint Test: User Account with Detection Engineering
