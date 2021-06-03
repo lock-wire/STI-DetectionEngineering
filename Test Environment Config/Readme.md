@@ -37,7 +37,7 @@
 -- from bash \
 -- `sudo vi /opt/so/saltstack/local/pillar/global.sls` \
 -- `sudo so-yara-update` 
-- Update Sigma Rules in Playbook
+- Update Sigma Rules in Playbook \
 -- `sudo so-playbook-ruleupdate`
 
 ## Virtual Network
